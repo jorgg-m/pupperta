@@ -36,12 +36,26 @@
 			mainContent.classList.remove('pl-0');
 			fixedOpenBtn.classList.add('opacity-0', 'pointer-events-none');
 			fixedOpenBtn.classList.remove('opacity-100', 'pointer-events-auto');
+			
+			// Hide header logo when sidebar is open
+			const headerLogo = document.getElementById('header-logo');
+			if (headerLogo) {
+				headerLogo.classList.add('opacity-0', 'pointer-events-none');
+				headerLogo.classList.remove('opacity-100', 'pointer-events-auto');
+			}
 		} else {
 			sidebar.classList.add('-translate-x-full');
 			mainContent.classList.remove('lg:pl-64');
 			mainContent.classList.add('pl-0');
 			fixedOpenBtn.classList.remove('opacity-0', 'pointer-events-none');
 			fixedOpenBtn.classList.add('opacity-100', 'pointer-events-auto');
+			
+			// Show header logo when sidebar is closed
+			const headerLogo = document.getElementById('header-logo');
+			if (headerLogo) {
+				headerLogo.classList.remove('opacity-0', 'pointer-events-none');
+				headerLogo.classList.add('opacity-100', 'pointer-events-auto');
+			}
 		}
 	}
 
