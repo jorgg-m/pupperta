@@ -8,6 +8,7 @@ html, body {
 /* Design tokens not provided by Tailwind CDN config */
 .text-mb-black { color: #111111; }
 .bg-mb-black { background-color: #111111; }
+.border-mb-black { border-color: #111111; }
 
 /* Smooth transform/opacity transitions globally for nicer feel */
 * {
