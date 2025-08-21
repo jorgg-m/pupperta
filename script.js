@@ -137,6 +137,12 @@
 		const modalWeight = document.getElementById('modal-weight');
 		const modalStory = document.getElementById('modal-story');
 		const modalInfoBtn = document.querySelector('#modal-info-btn');
+		
+		// Form view elements
+		const petDetailsView = document.getElementById('pet-details-view');
+		const contactFormView = document.getElementById('contact-form-view');
+		const contactForm = document.getElementById('contact-form');
+		const backToDetailsBtn = document.getElementById('back-to-details-btn');
 
 		function openModal(imageData) {
 			// Set modal content
@@ -147,6 +153,9 @@
 			modalSize.textContent = imageData.size;
 			modalWeight.textContent = imageData.weight;
 			modalStory.textContent = imageData.story;
+
+			// Reset to pet details view
+			showPetDetailsView();
 
 			// Show modal
 			modal.classList.remove('opacity-0', 'pointer-events-none');
@@ -167,14 +176,66 @@
 			modal.classList.add('opacity-0', 'pointer-events-none');
 			modal.setAttribute('aria-hidden', 'true');
 
+			// Reset to pet details view
+			showPetDetailsView();
+
 			// Restore body scroll
 			document.body.style.overflow = '';
+		}
+
+		function showPetDetailsView() {
+			// Slide form view out to the right and hide it
+			contactFormView.classList.add('translate-x-full', 'opacity-0', 'pointer-events-none');
+			contactFormView.classList.remove('translate-x-0', 'opacity-100', 'pointer-events-auto');
+			// Slide pet details view in from the left
+			petDetailsView.classList.remove('-translate-x-full');
+			petDetailsView.classList.add('translate-x-0', 'pointer-events-auto');
+		}
+
+		function showContactFormView() {
+			// Slide pet details view out to the left
+			petDetailsView.classList.add('-translate-x-full');
+			petDetailsView.classList.remove('translate-x-0', 'pointer-events-auto');
+			// Slide form view in from the right and show it
+			contactFormView.classList.remove('translate-x-full', 'opacity-0', 'pointer-events-none');
+			contactFormView.classList.add('translate-x-0', 'opacity-100', 'pointer-events-auto');
 		}
 
 		// Get More Information button functionality
 		if (modalInfoBtn) {
 			modalInfoBtn.addEventListener('click', () => {
-				alert('This would typically open a detailed page or contact form for more information about this pet.');
+				showContactFormView();
+			});
+		}
+
+		// Back to details button functionality
+		if (backToDetailsBtn) {
+			backToDetailsBtn.addEventListener('click', () => {
+				showPetDetailsView();
+			});
+		}
+
+		// Form submission
+		if (contactForm) {
+			contactForm.addEventListener('submit', (e) => {
+				e.preventDefault();
+				
+				// Get form data
+				const formData = new FormData(contactForm);
+				const nombre = formData.get('nombre');
+				const edad = formData.get('edad');
+				const telefono = formData.get('telefono');
+				const zona = formData.get('zona');
+				
+				// Here you would typically send the data to your server
+				console.log('Form submitted:', { nombre, edad, telefono, zona });
+				
+				// Show success message
+				alert('¡Gracias! Su solicitud ha sido enviada. Nos pondremos en contacto con usted pronto.');
+				
+				// Reset form and go back to details
+				contactForm.reset();
+				showPetDetailsView();
 			});
 		}
 
