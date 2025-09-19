@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Success-Stories on Pupperta - Dog Rescue Stories</title>
+    <link>http://localhost:60317/categories/success-stories/</link>
+    <description>Recent content in Success-Stories on Pupperta - Dog Rescue Stories</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:60317/categories/success-stories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maya — the playful explorer</title>
+      <link>http://localhost:60317/journal/maya-the-playful-explorer/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60317/journal/maya-the-playful-explorer/</guid>
+      <description>&lt;p&gt;Curious and brave, Maya turned every walk into an adventure. This abstract highlights how trail time, puzzle feeders, and nose work channeled her energy into healthy curiosity—and how her adopters now hike every weekend together.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rocco — the gentle giant</title>
+      <link>http://localhost:60317/journal/rocco-the-gentle-giant/</link>
+      <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60317/journal/rocco-the-gentle-giant/</guid>
+      <description>&lt;p&gt;Despite his size, Rocco has a soft heart. He learned to walk calmly on a leash, adores children, and patiently waits for cuddles. This abstract shares how structure, enrichment games, and a stable foster home revealed the sweetest side of a once-overlooked pup.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Luna — from shy to shining</title>
+      <link>http://localhost:60317/journal/luna-from-shy-to-shining/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60317/journal/luna-from-shy-to-shining/</guid>
+      <description>&lt;p&gt;After being found timid and malnourished, Luna slowly rediscovered trust through patient care, gentle walks, and consistent routines. Her confidence blossomed with playtime and positive reinforcement. This abstract previews how small steps led to big changes—and the loving family that welcomed her home.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

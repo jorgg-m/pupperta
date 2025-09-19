@@ -1,0 +1,134 @@
+{{ define "main" }}
+<!-- Sticky classification/tag bar that hides on scroll down, reveals on scroll up -->
+<div id="classify-bar" class="sticky top-14 z-20 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-gray-100 transition-transform duration-300 ease-in-out">
+  <div class="px-4 lg:px-6 py-3 overflow-x-auto">
+    <div class="flex items-center gap-2 min-w-max">
+      <button class="tag-btn inline-flex items-center rounded-full border border-gray-100 bg-white px-3 py-1.5 text-sm font-medium hover:bg-gray-100 transition-all duration-300 ease-in-out" aria-pressed="true">Todos</button>
+      <button class="tag-btn inline-flex items-center rounded-full border border-gray-100 bg-white px-3 py-1.5 text-sm font-medium hover:bg-gray-100 transition-all duration-300 ease-in-out">Talla chica</button>
+      <button class="tag-btn inline-flex items-center rounded-full border border-gray-100 bg-white px-3 py-1.5 text-sm font-medium hover:bg-gray-100 transition-all duration-300 ease-in-out">Medianos</button>
+      <button class="tag-btn inline-flex items-center rounded-full border border-gray-100 bg-white px-3 py-1.5 text-sm font-medium hover:bg-gray-100 transition-all duration-300 ease-in-out">Grandes</button>
+      <button class="tag-btn inline-flex items-center rounded-full border border-gray-100 bg-white px-3 py-1.5 text-sm font-medium hover:bg-gray-100 transition-all duration-300 ease-in-out">Cachorros</button>
+      <button class="tag-btn inline-flex items-center rounded-full border border-gray-100 bg-white px-3 py-1.5 text-sm font-medium hover:bg-gray-100 transition-all duration-300 ease-in-out">Edad avanzada</button>
+    </div>
+  </div>
+</div>
+
+<!-- Masonry grid feed -->
+<div class="px-4 lg:px-6 py-6">
+  <div id="masonry" class="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 [column-fill:_balance]">
+    <!-- Get available dogs and display them -->
+    {{ $availableDogs := where .Site.RegularPages "Section" "dogs" }}
+    {{ $availableDogs = where $availableDogs "Params.status" "available" }}
+    {{ range $availableDogs }}
+    <div class="break-inside-avoid mb-4">
+      <div class="bg-white rounded-lg border border-gray-100 overflow-hidden shadow-sm ring-1 ring-black/5 hover:-translate-y-0.5 transition-all duration-300 ease-in-out cursor-pointer" onclick="openDogModal('{{ .RelPermalink }}')">
+        <img src="{{ .Params.picture }}" alt="{{ .Params.temporal_name }}" class="w-full h-auto object-cover" />
+        <div class="p-4">
+          <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-gray-600 mb-2">
+            <span>🐕 {{ .Params.temporal_name }}</span>
+            <span>•</span>
+            <span>📏 {{ .Params.size }}</span>
+            <span>•</span>
+            <span>⚖️ {{ .Params.weight }}</span>
+          </div>
+          <h3 class="text-base font-semibold mb-1">{{ .Params.temporal_name }}</h3>
+          <p class="text-sm text-gray-700 line-clamp-3">{{ .Params.description }}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <!-- Sentinel for infinite scroll -->
+  <div id="sentinel" class="h-12"></div>
+
+  <!-- End-of-content message -->
+  <div id="end-message" class="hidden py-10 text-center text-sm text-gray-500">This is all folks!</div>
+</div>
+
+<!-- Dog Modal -->
+<div id="dog-modal" class="fixed inset-0 z-50 bg-black/50 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out overflow-y-auto" aria-hidden="true">
+  <div class="flex items-center justify-center min-h-screen p-4 py-8">
+    <div id="dog-modal-content" class="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[90vh] transform scale-95 transition-transform duration-300 ease-in-out flex flex-col">
+      <!-- Modal Header with Close Button -->
+      <div class="flex items-center justify-between p-4 border-b border-gray-100 flex-shrink-0">
+        <h2 class="text-lg font-semibold text-mb-black">Dog Details</h2>
+        <button id="dog-modal-close" class="inline-flex items-center justify-center h-8 w-8 rounded-md hover:bg-gray-100 transition-all duration-300 ease-in-out" aria-label="Close modal">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" class="h-5 w-5">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+      
+      <!-- Modal Body with Scrollable Content -->
+      <div class="flex-1 overflow-y-auto">
+        <div id="dog-details-view" class="transition-all duration-300 ease-in-out transform translate-x-0">
+          <!-- Modal Image -->
+          <div class="relative">
+            <img id="dog-modal-image" src="" alt="Dog image" class="w-full h-auto object-cover" />
+          </div>
+          
+          <!-- Modal Description -->
+          <div class="p-6 space-y-4">
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <label class="block text-sm font-medium text-gray-500 mb-1">Name:</label>
+                <p id="dog-modal-name" class="text-sm font-semibold text-mb-black"></p>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-500 mb-1">Age:</label>
+                <p id="dog-modal-age" class="text-sm font-semibold text-mb-black"></p>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-500 mb-1">Size:</label>
+                <p id="dog-modal-size" class="text-sm font-semibold text-mb-black"></p>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-500 mb-1">Weight:</label>
+                <p id="dog-modal-weight" class="text-sm font-semibold text-mb-black"></p>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-500 mb-1">Breed:</label>
+                <p id="dog-modal-breed" class="text-sm font-semibold text-mb-black"></p>
+              </div>
+              <div>
+                <label class="block text-sm font-medium text-gray-500 mb-1">Reactive:</label>
+                <p id="dog-modal-reactive" class="text-sm font-semibold text-mb-black"></p>
+              </div>
+            </div>
+            
+            <div>
+              <label class="block text-sm font-medium text-gray-500 mb-2">Description:</label>
+              <p id="dog-modal-description" class="text-sm text-gray-700 leading-relaxed"></p>
+            </div>
+            
+            <div class="pt-4">
+              <button id="dog-modal-info-btn" class="w-full inline-flex items-center justify-center px-4 py-3 rounded-md bg-mb-black text-white font-medium hover:bg-mb-black/90 transition-all duration-300 ease-in-out">
+                Get More Information
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function openDogModal(dogUrl) {
+  // This would fetch dog data and populate the modal
+  // For now, we'll just show the modal
+  document.getElementById('dog-modal').classList.remove('opacity-0', 'pointer-events-none');
+  document.getElementById('dog-modal').classList.add('opacity-100');
+  document.getElementById('dog-modal-content').classList.remove('scale-95');
+  document.getElementById('dog-modal-content').classList.add('scale-100');
+}
+
+document.getElementById('dog-modal-close').addEventListener('click', function() {
+  document.getElementById('dog-modal').classList.add('opacity-0', 'pointer-events-none');
+  document.getElementById('dog-modal').classList.remove('opacity-100');
+  document.getElementById('dog-modal-content').classList.add('scale-95');
+  document.getElementById('dog-modal-content').classList.remove('scale-100');
+});
+</script>
+{{ end }}

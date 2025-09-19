@@ -1,0 +1,44 @@
+baseURL = 'https://pupperta.example.com/'
+languageCode = 'en-us'
+title = 'Pupperta - Dog Rescue Stories'
+theme = 'pupperta-theme'
+
+[params]
+  description = "Stories of rescued dogs and their journey to finding loving homes"
+  author = "Pupperta Team"
+  
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Casa"
+    url = "/"
+    weight = 10
+    
+  [[menu.main]]
+    identifier = "presentation"
+    name = "Presentación"
+    url = "/presentacion/"
+    weight = 20
+    
+  [[menu.main]]
+    identifier = "journal"
+    name = "Blog"
+    url = "/journal/"
+    weight = 30
+    
+  [[menu.main]]
+    identifier = "dogs"
+    name = "Perros Rescatados"
+    url = "/dogs/"
+    weight = 40
+    
+  [[menu.main]]
+    identifier = "collabs"
+    name = "Collabs"
+    url = "/collabs/"
+    weight = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

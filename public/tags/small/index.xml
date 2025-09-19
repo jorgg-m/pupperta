@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Small on Pupperta - Dog Rescue Stories</title>
+    <link>http://localhost:60317/tags/small/</link>
+    <description>Recent content in Small on Pupperta - Dog Rescue Stories</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:60317/tags/small/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Luna</title>
+      <link>http://localhost:60317/dogs/luna/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60317/dogs/luna/</guid>
+      <description>&lt;p&gt;Luna has made incredible progress since arriving at our shelter. She was very shy initially but has blossomed into a confident and loving companion. She&amp;rsquo;s been adopted by a wonderful family!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

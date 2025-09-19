@@ -1,0 +1,39 @@
+<aside id="sidebar" class="fixed inset-y-0 left-0 z-50 w-64 transform -translate-x-full bg-white border-r border-gray-100 shadow-sm transition-transform duration-300 ease-in-out" role="navigation" aria-label="Primary">
+  <div class="h-full flex flex-col">
+    <div class="flex items-center justify-between px-5 h-16 border-b border-gray-100">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex h-8 w-8 items-center justify-center rounded-md bg-mb-black text-white text-sm font-semibold">MB</span>
+        <span class="text-base font-semibold">{{ .Site.Title }}</span>
+      </div>
+      <button id="sidebar-close" class="lg:hidden inline-flex items-center justify-center h-9 w-9 rounded-md hover:bg-gray-100 transition-all duration-300 ease-in-out" aria-label="Close sidebar" aria-controls="sidebar" aria-expanded="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" class="h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+
+    <nav class="flex-1 overflow-y-auto px-3 py-4">
+      <ul class="space-y-1">
+        {{ range .Site.Menus.main }}
+        <li>
+          <a href="{{ .URL }}" class="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 transition-all duration-300 ease-in-out{{ if $.IsMenuCurrent "main" . }} bg-gray-100{{ end }}" {{ if $.IsMenuCurrent "main" . }}aria-current="page"{{ end }}>
+            <span class="inline-flex h-6 w-6 items-center justify-center rounded bg-gray-100">
+              {{ if eq .Identifier "home" }}🏠{{ end }}
+              {{ if eq .Identifier "presentation" }}📣{{ end }}
+              {{ if eq .Identifier "journal" }}📝{{ end }}
+              {{ if eq .Identifier "dogs" }}🐕{{ end }}
+              {{ if eq .Identifier "collabs" }}🤝{{ end }}
+            </span>
+            <span class="text-sm font-medium">{{ .Name }}</span>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+
+    <div class="border-t border-gray-100 px-5 py-3">
+      <button id="sidebar-toggle" class="w-full flex items-center justify-center gap-2 px-3 py-2 rounded-md hover:bg-gray-100 transition-all duration-300 ease-in-out" aria-label="Toggle sidebar">
+        <span id="sidebar-toggle-icon" class="text-lg font-medium">←</span>
+        <span class="text-sm font-medium">Close</span>
+      </button>
+    </div>
+  </div>
+</aside>

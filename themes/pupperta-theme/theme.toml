@@ -1,0 +1,12 @@
+name = "Pupperta Theme"
+license = "MIT"
+licenselink = "https://github.com/yourusername/pupperta-theme/blob/master/LICENSE.md"
+description = "A theme for dog rescue stories and adoption platform"
+homepage = "https://github.com/yourusername/pupperta-theme"
+tags = ["blog", "rescue", "dogs", "adoption"]
+features = ["blog", "responsive", "tailwind"]
+min_version = "0.41.0"
+
+[author]
+  name = "Pupperta Team"
+  homepage = "https://pupperta.example.com"

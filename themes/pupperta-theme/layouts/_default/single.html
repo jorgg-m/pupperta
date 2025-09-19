@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="px-4 lg:px-6 py-8">
+  <article class="max-w-3xl">
+    <header class="mb-6">
+      <h1 class="text-3xl font-bold mb-2">{{ .Title }}</h1>
+      {{ if .Date }}
+      <p class="text-sm text-gray-500">Published {{ .Date.Format "January 2, 2006" }}</p>
+      {{ end }}
+    </header>
+    
+    <div class="prose max-w-none">
+      {{ .Content }}
+    </div>
+  </article>
+</div>
+{{ end }}

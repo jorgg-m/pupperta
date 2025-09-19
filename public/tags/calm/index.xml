@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Calm on Pupperta - Dog Rescue Stories</title>
+    <link>http://localhost:60317/tags/calm/</link>
+    <description>Recent content in Calm on Pupperta - Dog Rescue Stories</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:60317/tags/calm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bella</title>
+      <link>http://localhost:60317/dogs/bella/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60317/dogs/bella/</guid>
+      <description>&lt;p&gt;Bella is a wonderful companion who has been with us for 2 months. She&amp;rsquo;s fully vaccinated, spayed, and ready for her forever home. She gets along well with other dogs and loves children.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+/* Custom minimal styles layered on top of Tailwind */
+
+/* Font family stack to prefer Inter/DM Sans when available */
+html, body {
+	font-family: Inter, "DM Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/* Design tokens not provided by Tailwind CDN config */
+.text-mb-black { color: #111111; }
+.bg-mb-black { background-color: #111111; }
+.border-mb-black { border-color: #111111; }
+
+/* Smooth transform/opacity transitions globally for nicer feel */
+* {
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Progressive enhancement: backdrop blur support fallback already handled via utility */
+
+/* Ensure masonry columns balance when supported (already set via arbitrary util) */
+

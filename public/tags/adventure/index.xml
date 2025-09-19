@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adventure on Pupperta - Dog Rescue Stories</title>
+    <link>http://localhost:60317/tags/adventure/</link>
+    <description>Recent content in Adventure on Pupperta - Dog Rescue Stories</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:60317/tags/adventure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maya — the playful explorer</title>
+      <link>http://localhost:60317/journal/maya-the-playful-explorer/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60317/journal/maya-the-playful-explorer/</guid>
+      <description>&lt;p&gt;Curious and brave, Maya turned every walk into an adventure. This abstract highlights how trail time, puzzle feeders, and nose work channeled her energy into healthy curiosity—and how her adopters now hike every weekend together.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

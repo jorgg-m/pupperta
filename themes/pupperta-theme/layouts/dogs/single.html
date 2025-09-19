@@ -1,0 +1,119 @@
+{{ define "main" }}
+<div class="px-4 lg:px-6 py-8">
+  <article class="max-w-4xl">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <!-- Dog Image -->
+      <div>
+        <img src="{{ .Params.picture }}" alt="{{ .Params.temporal_name }}" class="w-full h-auto rounded-lg shadow-lg" />
+      </div>
+      
+      <!-- Dog Information -->
+      <div class="space-y-6">
+        <header>
+          <div class="flex items-center justify-between mb-2">
+            <h1 class="text-3xl font-bold">{{ .Params.temporal_name }}</h1>
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium
+              {{ if eq .Params.status "available" }}bg-green-100 text-green-800{{ end }}
+              {{ if eq .Params.status "adopted" }}bg-blue-100 text-blue-800{{ end }}
+              {{ if eq .Params.status "pending" }}bg-yellow-100 text-yellow-800{{ end }}">
+              {{ .Params.status | title }}
+            </span>
+          </div>
+          <p class="text-lg text-gray-600">{{ .Params.breed }} • {{ .Params.gender | title }}</p>
+        </header>
+        
+        <!-- Basic Information -->
+        <div class="bg-gray-50 rounded-lg p-4">
+          <h3 class="text-lg font-semibold mb-3">Basic Information</h3>
+          <div class="grid grid-cols-2 gap-4 text-sm">
+            <div>
+              <span class="font-medium text-gray-600">Age:</span>
+              <span class="ml-2">{{ .Params.age }}</span>
+            </div>
+            <div>
+              <span class="font-medium text-gray-600">Size:</span>
+              <span class="ml-2">{{ .Params.size }}</span>
+            </div>
+            <div>
+              <span class="font-medium text-gray-600">Weight:</span>
+              <span class="ml-2">{{ .Params.weight }}</span>
+            </div>
+            <div>
+              <span class="font-medium text-gray-600">Reactive:</span>
+              <span class="ml-2">{{ if .Params.reactive }}Yes{{ else }}No{{ end }}</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Health Information -->
+        <div class="bg-gray-50 rounded-lg p-4">
+          <h3 class="text-lg font-semibold mb-3">Health & Care</h3>
+          <div class="grid grid-cols-2 gap-4 text-sm">
+            <div>
+              <span class="font-medium text-gray-600">Vaccinated:</span>
+              <span class="ml-2">{{ if .Params.vaccinated }}✅ Yes{{ else }}❌ No{{ end }}</span>
+            </div>
+            <div>
+              <span class="font-medium text-gray-600">Spayed/Neutered:</span>
+              <span class="ml-2">{{ if .Params.spayed_neutered }}✅ Yes{{ else }}❌ No{{ end }}</span>
+            </div>
+          </div>
+          {{ if .Params.special_needs }}
+          <div class="mt-3">
+            <span class="font-medium text-gray-600">Special Needs:</span>
+            <span class="ml-2">{{ .Params.special_needs }}</span>
+          </div>
+          {{ end }}
+        </div>
+        
+        <!-- Description -->
+        <div>
+          <h3 class="text-lg font-semibold mb-3">About {{ .Params.temporal_name }}</h3>
+          <p class="text-gray-700 leading-relaxed">{{ .Params.description }}</p>
+        </div>
+        
+        <!-- Tags -->
+        {{ if .Params.tags }}
+        <div>
+          <h3 class="text-lg font-semibold mb-3">Characteristics</h3>
+          <div class="flex flex-wrap gap-2">
+            {{ range .Params.tags }}
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm bg-mb-black text-white">{{ . }}</span>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+        
+        <!-- Action Buttons -->
+        <div class="flex gap-4 pt-4">
+          {{ if eq .Params.status "available" }}
+          <button class="flex-1 inline-flex items-center justify-center px-6 py-3 rounded-md bg-mb-black text-white font-medium hover:bg-mb-black/90 transition-all duration-300 ease-in-out">
+            Apply for Adoption
+          </button>
+          <button class="inline-flex items-center justify-center px-6 py-3 rounded-md border border-gray-300 text-gray-700 font-medium hover:bg-gray-50 transition-all duration-300 ease-in-out">
+            Share
+          </button>
+          {{ else if eq .Params.status "adopted" }}
+          <div class="flex-1 text-center py-3 text-green-600 font-medium">
+            🎉 This dog has found their forever home!
+          </div>
+          {{ else }}
+          <div class="flex-1 text-center py-3 text-yellow-600 font-medium">
+            ⏳ Adoption pending
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    
+    <!-- Full Content -->
+    {{ if .Content }}
+    <div class="mt-8 pt-8 border-t border-gray-200">
+      <div class="prose max-w-none">
+        {{ .Content }}
+      </div>
+    </div>
+    {{ end }}
+  </article>
+</div>
+{{ end }}

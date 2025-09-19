@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Pupperta - Dog Rescue Stories</title>
+    <link>http://localhost:60317/categories/</link>
+    <description>Recent content in Categories on Pupperta - Dog Rescue Stories</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:60317/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Available</title>
+      <link>http://localhost:60317/categories/available/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60317/categories/available/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Adopted</title>
+      <link>http://localhost:60317/categories/adopted/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60317/categories/adopted/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Success-Stories</title>
+      <link>http://localhost:60317/categories/success-stories/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:60317/categories/success-stories/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
