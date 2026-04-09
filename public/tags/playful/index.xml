@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Playful on Pupperta - Dog Rescue Stories</title>
+    <link>http://localhost:1313/tags/playful/</link>
+    <description>Recent content in Playful on Pupperta - Dog Rescue Stories</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/playful/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rocky</title>
+      <link>http://localhost:1313/dogs/rocky/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/rocky/</guid>
+      <description>&lt;p&gt;Rocky is a bundle of energy who loves to play and run around. He&amp;rsquo;s great with kids and other dogs, but needs a family that can provide plenty of exercise and playtime.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Coco</title>
+      <link>http://localhost:1313/dogs/coco/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/coco/</guid>
+      <description>&lt;p&gt;Coco is an adorable puppy who&amp;rsquo;s still learning the basics. She&amp;rsquo;s very smart and eager to please, making her a great candidate for training.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Charlie</title>
+      <link>http://localhost:1313/dogs/charlie/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/charlie/</guid>
+      <description>&lt;p&gt;Charlie is a fun-loving puppy who&amp;rsquo;s always up for an adventure. He needs a family who can provide lots of supervision and training as he grows up.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

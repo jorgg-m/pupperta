@@ -2,18 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Energetic on Pupperta - Dog Rescue Stories</title>
-    <link>http://localhost:60317/tags/energetic/</link>
+    <link>http://localhost:1313/tags/energetic/</link>
     <description>Recent content in Energetic on Pupperta - Dog Rescue Stories</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:60317/tags/energetic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/energetic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rocky</title>
+      <link>http://localhost:1313/dogs/rocky/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/rocky/</guid>
+      <description>&lt;p&gt;Rocky is a bundle of energy who loves to play and run around. He&amp;rsquo;s great with kids and other dogs, but needs a family that can provide plenty of exercise and playtime.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Max</title>
-      <link>http://localhost:60317/dogs/max/</link>
+      <link>http://localhost:1313/dogs/max/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60317/dogs/max/</guid>
+      <guid>http://localhost:1313/dogs/max/</guid>
       <description>&lt;p&gt;Max is a high-energy dog who needs an active family. He&amp;rsquo;s great with kids but needs a yard to run around in. He&amp;rsquo;s fully trained and responds well to commands.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pepper</title>
+      <link>http://localhost:1313/dogs/pepper/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/pepper/</guid>
+      <description>&lt;p&gt;Pepper is a small dog with a huge personality. She&amp;rsquo;s very intelligent and needs mental stimulation, making her perfect for someone who enjoys training and playing games.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

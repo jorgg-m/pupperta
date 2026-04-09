@@ -2,32 +2,179 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dogs on Pupperta - Dog Rescue Stories</title>
-    <link>http://localhost:60317/dogs/</link>
+    <link>http://localhost:1313/dogs/</link>
     <description>Recent content in Dogs on Pupperta - Dog Rescue Stories</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:60317/dogs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/dogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bella</title>
-      <link>http://localhost:60317/dogs/bella/</link>
+      <link>http://localhost:1313/dogs/bella/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60317/dogs/bella/</guid>
+      <guid>http://localhost:1313/dogs/bella/</guid>
       <description>&lt;p&gt;Bella is a wonderful companion who has been with us for 2 months. She&amp;rsquo;s fully vaccinated, spayed, and ready for her forever home. She gets along well with other dogs and loves children.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Rocky</title>
+      <link>http://localhost:1313/dogs/rocky/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/rocky/</guid>
+      <description>&lt;p&gt;Rocky is a bundle of energy who loves to play and run around. He&amp;rsquo;s great with kids and other dogs, but needs a family that can provide plenty of exercise and playtime.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sophie</title>
+      <link>http://localhost:1313/dogs/sophie/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/sophie/</guid>
+      <description>&lt;p&gt;Sophie is a sweet senior dog who has been with us for 3 months. She&amp;rsquo;s very gentle and loves quiet time, making her perfect for a calm household or senior couple.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Max</title>
-      <link>http://localhost:60317/dogs/max/</link>
+      <link>http://localhost:1313/dogs/max/</link>
       <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60317/dogs/max/</guid>
+      <guid>http://localhost:1313/dogs/max/</guid>
       <description>&lt;p&gt;Max is a high-energy dog who needs an active family. He&amp;rsquo;s great with kids but needs a yard to run around in. He&amp;rsquo;s fully trained and responds well to commands.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Zeus</title>
+      <link>http://localhost:1313/dogs/zeus/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/zeus/</guid>
+      <description>&lt;p&gt;Zeus is a magnificent dog who needs an experienced owner. He&amp;rsquo;s very loyal and protective, making him an excellent guard dog for the right family.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Coco</title>
+      <link>http://localhost:1313/dogs/coco/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/coco/</guid>
+      <description>&lt;p&gt;Coco is an adorable puppy who&amp;rsquo;s still learning the basics. She&amp;rsquo;s very smart and eager to please, making her a great candidate for training.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Duke</title>
+      <link>http://localhost:1313/dogs/duke/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/duke/</guid>
+      <description>&lt;p&gt;Duke is a well-trained and well-behaved dog who loves to be around people. He&amp;rsquo;s great with children and other pets, making him an ideal family dog.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lola</title>
+      <link>http://localhost:1313/dogs/lola/</link>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/lola/</guid>
+      <description>&lt;p&gt;Lola is a very affectionate dog who loves to be close to her humans. She&amp;rsquo;s perfect for someone who wants a lap dog and constant companion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bruno</title>
+      <link>http://localhost:1313/dogs/bruno/</link>
+      <pubDate>Tue, 05 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/bruno/</guid>
+      <description>&lt;p&gt;Bruno is a high-energy dog who loves to be outdoors. He&amp;rsquo;s perfect for someone who enjoys hiking, running, or other outdoor activities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Princess</title>
+      <link>http://localhost:1313/dogs/princess/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/princess/</guid>
+      <description>&lt;p&gt;Princess is a very elegant dog who loves to be pampered. She enjoys quiet environments and would be perfect for someone who appreciates a refined companion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Teddy</title>
+      <link>http://localhost:1313/dogs/teddy/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/teddy/</guid>
+      <description>&lt;p&gt;Teddy is like a living teddy bear - soft, fluffy, and absolutely adorable. He&amp;rsquo;s great with children and loves to be cuddled and petted.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pepper</title>
+      <link>http://localhost:1313/dogs/pepper/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/pepper/</guid>
+      <description>&lt;p&gt;Pepper is a small dog with a huge personality. She&amp;rsquo;s very intelligent and needs mental stimulation, making her perfect for someone who enjoys training and playing games.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Oscar</title>
+      <link>http://localhost:1313/dogs/oscar/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/oscar/</guid>
+      <description>&lt;p&gt;Oscar is a gentle senior dog who deserves a peaceful retirement. He&amp;rsquo;s very calm and would be perfect for someone who wants a low-maintenance companion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>http://localhost:1313/dogs/ruby/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/ruby/</guid>
+      <description>&lt;p&gt;Ruby is an incredibly intelligent dog who loves to learn and work. She&amp;rsquo;s perfect for someone who enjoys training and wants a highly trainable companion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Simba</title>
+      <link>http://localhost:1313/dogs/simba/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/simba/</guid>
+      <description>&lt;p&gt;Simba is a majestic dog with a beautiful golden coat. He&amp;rsquo;s very confident and loves to be around people, making him an excellent family dog.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Luna</title>
-      <link>http://localhost:60317/dogs/luna/</link>
+      <link>http://localhost:1313/dogs/luna/</link>
       <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60317/dogs/luna/</guid>
+      <guid>http://localhost:1313/dogs/luna/</guid>
       <description>&lt;p&gt;Luna has made incredible progress since arriving at our shelter. She was very shy initially but has blossomed into a confident and loving companion. She&amp;rsquo;s been adopted by a wonderful family!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mia</title>
+      <link>http://localhost:1313/dogs/mia/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/mia/</guid>
+      <description>&lt;p&gt;Mia is a sweet but shy dog who needs a patient family to help her come out of her shell. With love and patience, she will make a wonderful companion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ace</title>
+      <link>http://localhost:1313/dogs/ace/</link>
+      <pubDate>Fri, 18 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/ace/</guid>
+      <description>&lt;p&gt;Ace is a highly athletic and intelligent dog who loves to work and play. He&amp;rsquo;s perfect for someone interested in dog sports or agility training.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Luna (Adopted)</title>
+      <link>http://localhost:1313/dogs/luna-adopted/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/luna-adopted/</guid>
+      <description>&lt;p&gt;Luna has been successfully adopted! She found her perfect family and is now living her best life in a loving home.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Buddy</title>
+      <link>http://localhost:1313/dogs/buddy/</link>
+      <pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/buddy/</guid>
+      <description>&lt;p&gt;Buddy is the friendliest dog you&amp;rsquo;ll ever meet. He loves people, other dogs, and even cats! He&amp;rsquo;s perfect for someone who wants a social companion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Charlie</title>
+      <link>http://localhost:1313/dogs/charlie/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/charlie/</guid>
+      <description>&lt;p&gt;Charlie is a fun-loving puppy who&amp;rsquo;s always up for an adventure. He needs a family who can provide lots of supervision and training as he grows up.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Daisy</title>
+      <link>http://localhost:1313/dogs/daisy/</link>
+      <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/daisy/</guid>
+      <description>&lt;p&gt;Daisy is a natural caregiver who loves to look after others. She&amp;rsquo;s great with children and other animals, making her an ideal family dog.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rex</title>
+      <link>http://localhost:1313/dogs/rex/</link>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/rex/</guid>
+      <description>&lt;p&gt;Rex is a powerful and protective dog who needs an experienced owner. With proper training and leadership, he will be a loyal and devoted companion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Penny</title>
+      <link>http://localhost:1313/dogs/penny/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/penny/</guid>
+      <description>&lt;p&gt;Penny is a tiny dog with a huge personality. She loves to be carried around and pampered, making her perfect for someone who wants a constant companion.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

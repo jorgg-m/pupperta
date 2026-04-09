@@ -2,18 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Small on Pupperta - Dog Rescue Stories</title>
-    <link>http://localhost:60317/tags/small/</link>
+    <link>http://localhost:1313/tags/small/</link>
     <description>Recent content in Small on Pupperta - Dog Rescue Stories</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:60317/tags/small/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/small/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coco</title>
+      <link>http://localhost:1313/dogs/coco/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/coco/</guid>
+      <description>&lt;p&gt;Coco is an adorable puppy who&amp;rsquo;s still learning the basics. She&amp;rsquo;s very smart and eager to please, making her a great candidate for training.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lola</title>
+      <link>http://localhost:1313/dogs/lola/</link>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/lola/</guid>
+      <description>&lt;p&gt;Lola is a very affectionate dog who loves to be close to her humans. She&amp;rsquo;s perfect for someone who wants a lap dog and constant companion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pepper</title>
+      <link>http://localhost:1313/dogs/pepper/</link>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/pepper/</guid>
+      <description>&lt;p&gt;Pepper is a small dog with a huge personality. She&amp;rsquo;s very intelligent and needs mental stimulation, making her perfect for someone who enjoys training and playing games.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Luna</title>
-      <link>http://localhost:60317/dogs/luna/</link>
+      <link>http://localhost:1313/dogs/luna/</link>
       <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60317/dogs/luna/</guid>
+      <guid>http://localhost:1313/dogs/luna/</guid>
       <description>&lt;p&gt;Luna has made incredible progress since arriving at our shelter. She was very shy initially but has blossomed into a confident and loving companion. She&amp;rsquo;s been adopted by a wonderful family!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Penny</title>
+      <link>http://localhost:1313/dogs/penny/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/penny/</guid>
+      <description>&lt;p&gt;Penny is a tiny dog with a huge personality. She loves to be carried around and pampered, making her perfect for someone who wants a constant companion.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

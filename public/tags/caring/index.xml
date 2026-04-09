@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Caring on Pupperta - Dog Rescue Stories</title>
+    <link>http://localhost:1313/tags/caring/</link>
+    <description>Recent content in Caring on Pupperta - Dog Rescue Stories</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/caring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daisy</title>
+      <link>http://localhost:1313/dogs/daisy/</link>
+      <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/daisy/</guid>
+      <description>&lt;p&gt;Daisy is a natural caregiver who loves to look after others. She&amp;rsquo;s great with children and other animals, making her an ideal family dog.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

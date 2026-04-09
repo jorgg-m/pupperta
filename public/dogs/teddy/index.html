@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Teddy — Pupperta - Dog Rescue Stories</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body class="font-sans antialiased bg-white text-mb-black selection:bg-gray-100 selection:text-black">
+    
+    <div id="sidebar-overlay" class="fixed inset-0 z-40 bg-black/30 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out lg:hidden" aria-hidden="true"></div>
+
+    
+    <aside id="sidebar" class="fixed inset-y-0 left-0 z-50 w-64 transform -translate-x-full bg-white border-r border-gray-100 shadow-sm transition-transform duration-300 ease-in-out" role="navigation" aria-label="Primary">
+  <div class="h-full flex flex-col">
+    <div class="flex items-center justify-between px-5 h-16 border-b border-gray-100">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex h-8 w-8 items-center justify-center rounded-md bg-mb-black text-white text-sm font-semibold">MB</span>
+        <span class="text-base font-semibold">Pupperta - Dog Rescue Stories</span>
+      </div>
+      <button id="sidebar-close" class="lg:hidden inline-flex items-center justify-center h-9 w-9 rounded-md hover:bg-gray-100 transition-all duration-300 ease-in-out" aria-label="Close sidebar" aria-controls="sidebar" aria-expanded="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" class="h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+
+    <nav class="flex-1 overflow-y-auto px-3 py-4">
+      <ul class="space-y-1">
+        
+        <li>
+          <a href="/journal/" class="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 transition-all duration-300 ease-in-out" >
+            <span class="inline-flex h-6 w-6 items-center justify-center rounded bg-gray-100">
+              
+              
+              📝
+              
+              
+            </span>
+            <span class="text-sm font-medium">Blog</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/" class="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 transition-all duration-300 ease-in-out" >
+            <span class="inline-flex h-6 w-6 items-center justify-center rounded bg-gray-100">
+              🏠
+              
+              
+              
+              
+            </span>
+            <span class="text-sm font-medium">Casa</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/collabs/" class="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 transition-all duration-300 ease-in-out" >
+            <span class="inline-flex h-6 w-6 items-center justify-center rounded bg-gray-100">
+              
+              
+              
+              
+              🤝
+            </span>
+            <span class="text-sm font-medium">Collabs</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/dogs/" class="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 transition-all duration-300 ease-in-out" >
+            <span class="inline-flex h-6 w-6 items-center justify-center rounded bg-gray-100">
+              
+              
+              
+              🐕
+              
+            </span>
+            <span class="text-sm font-medium">Perros Rescatados</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="/presentacion/" class="flex items-center gap-3 px-3 py-2 rounded-md hover:bg-gray-100 transition-all duration-300 ease-in-out" >
+            <span class="inline-flex h-6 w-6 items-center justify-center rounded bg-gray-100">
+              
+              📣
+              
+              
+              
+            </span>
+            <span class="text-sm font-medium">Presentación</span>
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+
+    <div class="border-t border-gray-100 px-5 py-3">
+      <button id="sidebar-toggle" class="w-full flex items-center justify-center gap-2 px-3 py-2 rounded-md hover:bg-gray-100 transition-all duration-300 ease-in-out" aria-label="Toggle sidebar">
+        <span id="sidebar-toggle-icon" class="text-lg font-medium">←</span>
+        <span class="text-sm font-medium">Close</span>
+      </button>
+    </div>
+  </div>
+</aside>
+
+
+    
+    <div id="main-content" class="min-h-screen transition-all duration-300 ease-in-out">
+      
+      <div class="sticky top-0 z-30 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b border-gray-100">
+  <div class="h-14 flex items-center justify-between px-4 lg:px-6">
+    <button id="sidebar-open" class="lg:hidden inline-flex items-center justify-center h-9 w-9 rounded-md hover:bg-gray-100 transition-all duration-300 ease-in-out" aria-label="Open sidebar" aria-controls="sidebar" aria-expanded="false">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+    </button>
+
+    
+    <div id="header-logo" class="hidden lg:flex items-center gap-2 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out">
+      <span class="inline-flex h-8 w-8 items-center justify-center rounded-md bg-mb-black text-white text-sm font-semibold">MB</span>
+      <span class="text-base font-semibold">Pupperta - Dog Rescue Stories</span>
+    </div>
+
+    <form class="flex-1 max-w-lg mx-4" role="search" aria-label="Search">
+      <label for="q" class="sr-only">Search</label>
+      <div class="relative">
+        <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+          <svg class="h-4 w-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 103.75 3.75a7.5 7.5 0 0012.9 12.9z"/></svg>
+        </div>
+        <input id="q" name="q" type="search" class="block w-full rounded-md border border-gray-100 bg-gray-100/60 focus:bg-white focus:border-black/10 focus:ring-0 pl-9 pr-3 py-2 text-sm placeholder:text-gray-500 transition-all duration-300 ease-in-out" placeholder="Search (mocked)" />
+      </div>
+    </form>
+
+    <div class="hidden sm:flex items-center gap-2">
+      <button class="inline-flex items-center gap-2 rounded-md border border-gray-100 px-3 py-2 text-sm font-medium hover:bg-gray-100 transition-all duration-300 ease-in-out" aria-label="Upload (mock)">Upload</button>
+    </div>
+  </div>
+</div>
+
+
+      
+      <main>
+        
+<div class="px-4 lg:px-6 py-8">
+  <article class="max-w-4xl">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      
+      <div>
+        <img src="https://picsum.photos/seed/teddy/400/400" alt="Teddy" class="w-full h-auto rounded-lg shadow-lg" />
+      </div>
+      
+      
+      <div class="space-y-6">
+        <header>
+          <div class="flex items-center justify-between mb-2">
+            <h1 class="text-3xl font-bold">Teddy</h1>
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium
+              bg-green-100 text-green-800
+              
+              ">
+              Available
+            </span>
+          </div>
+          <p class="text-lg text-gray-600">Golden Retriever Mix • Male</p>
+        </header>
+        
+        
+        <div class="bg-gray-50 rounded-lg p-4">
+          <h3 class="text-lg font-semibold mb-3">Basic Information</h3>
+          <div class="grid grid-cols-2 gap-4 text-sm">
+            <div>
+              <span class="font-medium text-gray-600">Age:</span>
+              <span class="ml-2">2 years</span>
+            </div>
+            <div>
+              <span class="font-medium text-gray-600">Size:</span>
+              <span class="ml-2">Medium</span>
+            </div>
+            <div>
+              <span class="font-medium text-gray-600">Weight:</span>
+              <span class="ml-2">20 kg</span>
+            </div>
+            <div>
+              <span class="font-medium text-gray-600">Reactive:</span>
+              <span class="ml-2">No</span>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="bg-gray-50 rounded-lg p-4">
+          <h3 class="text-lg font-semibold mb-3">Health & Care</h3>
+          <div class="grid grid-cols-2 gap-4 text-sm">
+            <div>
+              <span class="font-medium text-gray-600">Vaccinated:</span>
+              <span class="ml-2">✅ Yes</span>
+            </div>
+            <div>
+              <span class="font-medium text-gray-600">Spayed/Neutered:</span>
+              <span class="ml-2">✅ Yes</span>
+            </div>
+          </div>
+          
+          <div class="mt-3">
+            <span class="font-medium text-gray-600">Special Needs:</span>
+            <span class="ml-2">Regular brushing needed</span>
+          </div>
+          
+        </div>
+        
+        
+        <div>
+          <h3 class="text-lg font-semibold mb-3">About Teddy</h3>
+          <p class="text-gray-700 leading-relaxed">A fluffy and cuddly dog who looks like a living teddy bear. Teddy is perfect for families with children who love to cuddle.</p>
+        </div>
+        
+        
+        
+        <div>
+          <h3 class="text-lg font-semibold mb-3">Characteristics</h3>
+          <div class="flex flex-wrap gap-2">
+            
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm bg-mb-black text-white">fluffy</span>
+            
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm bg-mb-black text-white">cuddly</span>
+            
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm bg-mb-black text-white">family-friendly</span>
+            
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-sm bg-mb-black text-white">soft</span>
+            
+          </div>
+        </div>
+        
+        
+        
+        <div class="flex gap-4 pt-4">
+          
+          <button class="flex-1 inline-flex items-center justify-center px-6 py-3 rounded-md bg-mb-black text-white font-medium hover:bg-mb-black/90 transition-all duration-300 ease-in-out">
+            Apply for Adoption
+          </button>
+          <button class="inline-flex items-center justify-center px-6 py-3 rounded-md border border-gray-300 text-gray-700 font-medium hover:bg-gray-50 transition-all duration-300 ease-in-out">
+            Share
+          </button>
+          
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div class="mt-8 pt-8 border-t border-gray-200">
+      <div class="prose max-w-none">
+        <p>Teddy is like a living teddy bear - soft, fluffy, and absolutely adorable. He&rsquo;s great with children and loves to be cuddled and petted.</p>
+
+      </div>
+    </div>
+    
+  </article>
+</div>
+
+      </main>
+    </div>
+
+    
+    <button id="sidebar-fixed-open" class="fixed left-0 bottom-12 -translate-y-1/2 z-40 inline-flex items-center justify-center h-12 w-6 rounded-r-lg bg-mb-black text-white shadow-lg opacity-0 pointer-events-none transition-all duration-300 ease-in-out" aria-label="Open sidebar">
+      <span class="text-sm font-medium">→</span>
+    </button>
+
+    
+    <button id="scrollTopBtn" class="fixed bottom-5 right-5 z-40 inline-flex items-center justify-center h-11 w-11 rounded-full bg-mb-black text-white shadow-lg opacity-0 translate-y-3 pointer-events-none transition-all duration-300 ease-in-out" aria-label="Scroll to top">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" class="h-5 w-5"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/></svg>
+    </button>
+    
+    <script src="/script.js"></script>
+  </body>
+</html>

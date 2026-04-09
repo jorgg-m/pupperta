@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rescue on Pupperta - Dog Rescue Stories</title>
-    <link>http://localhost:60317/tags/rescue/</link>
+    <link>http://localhost:1313/tags/rescue/</link>
     <description>Recent content in Rescue on Pupperta - Dog Rescue Stories</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:60317/tags/rescue/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/rescue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Streets to Safety — A Community Effort</title>
+      <link>http://localhost:1313/journal/from-streets-to-safety/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journal/from-streets-to-safety/</guid>
+      <description>&lt;p&gt;When we received the call about five abandoned puppies in an empty lot, we knew this would be a community effort. The puppies were malnourished, scared, and in need of immediate medical attention. But what happened next showed us the true power of community.&lt;/p&gt;&#xA;&lt;p&gt;Local businesses donated food and supplies, neighbors opened their homes as temporary fosters, and our veterinary partners provided discounted care. Within weeks, each puppy was healthy, socialized, and ready for adoption. Today, all five are living happily with their forever families.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Luna — from shy to shining</title>
-      <link>http://localhost:60317/journal/luna-from-shy-to-shining/</link>
+      <link>http://localhost:1313/journal/luna-from-shy-to-shining/</link>
       <pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60317/journal/luna-from-shy-to-shining/</guid>
+      <guid>http://localhost:1313/journal/luna-from-shy-to-shining/</guid>
       <description>&lt;p&gt;After being found timid and malnourished, Luna slowly rediscovered trust through patient care, gentle walks, and consistent routines. Her confidence blossomed with playtime and positive reinforcement. This abstract previews how small steps led to big changes—and the loving family that welcomed her home.&lt;/p&gt;</description>
     </item>
   </channel>

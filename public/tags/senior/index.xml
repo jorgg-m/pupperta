@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Senior on Pupperta - Dog Rescue Stories</title>
+    <link>http://localhost:1313/tags/senior/</link>
+    <description>Recent content in Senior on Pupperta - Dog Rescue Stories</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/senior/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sophie</title>
+      <link>http://localhost:1313/dogs/sophie/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/sophie/</guid>
+      <description>&lt;p&gt;Sophie is a sweet senior dog who has been with us for 3 months. She&amp;rsquo;s very gentle and loves quiet time, making her perfect for a calm household or senior couple.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Oscar</title>
+      <link>http://localhost:1313/dogs/oscar/</link>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/oscar/</guid>
+      <description>&lt;p&gt;Oscar is a gentle senior dog who deserves a peaceful retirement. He&amp;rsquo;s very calm and would be perfect for someone who wants a low-maintenance companion.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -6,7 +6,7 @@ temporal_name: "Luna"
 description: "A small and delicate dog who has overcome her shyness. Luna is now confident and ready for a loving home."
 picture: "https://picsum.photos/seed/luna-dog/400/400"
 age: "4 years"
-weight: "8 kg"
+dog_weight: "8 kg"
 size: "Small"
 reactive: false
 status: "adopted"

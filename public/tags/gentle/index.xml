@@ -2,24 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gentle on Pupperta - Dog Rescue Stories</title>
-    <link>http://localhost:60317/tags/gentle/</link>
+    <link>http://localhost:1313/tags/gentle/</link>
     <description>Recent content in Gentle on Pupperta - Dog Rescue Stories</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:60317/tags/gentle/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/gentle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bella</title>
-      <link>http://localhost:60317/dogs/bella/</link>
+      <link>http://localhost:1313/dogs/bella/</link>
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60317/dogs/bella/</guid>
+      <guid>http://localhost:1313/dogs/bella/</guid>
       <description>&lt;p&gt;Bella is a wonderful companion who has been with us for 2 months. She&amp;rsquo;s fully vaccinated, spayed, and ready for her forever home. She gets along well with other dogs and loves children.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Sophie</title>
+      <link>http://localhost:1313/dogs/sophie/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/sophie/</guid>
+      <description>&lt;p&gt;Sophie is a sweet senior dog who has been with us for 3 months. She&amp;rsquo;s very gentle and loves quiet time, making her perfect for a calm household or senior couple.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Princess</title>
+      <link>http://localhost:1313/dogs/princess/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/princess/</guid>
+      <description>&lt;p&gt;Princess is a very elegant dog who loves to be pampered. She enjoys quiet environments and would be perfect for someone who appreciates a refined companion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mia</title>
+      <link>http://localhost:1313/dogs/mia/</link>
+      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/mia/</guid>
+      <description>&lt;p&gt;Mia is a sweet but shy dog who needs a patient family to help her come out of her shell. With love and patience, she will make a wonderful companion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Luna (Adopted)</title>
+      <link>http://localhost:1313/dogs/luna-adopted/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/luna-adopted/</guid>
+      <description>&lt;p&gt;Luna has been successfully adopted! She found her perfect family and is now living her best life in a loving home.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Daisy</title>
+      <link>http://localhost:1313/dogs/daisy/</link>
+      <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/daisy/</guid>
+      <description>&lt;p&gt;Daisy is a natural caregiver who loves to look after others. She&amp;rsquo;s great with children and other animals, making her an ideal family dog.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Rocco — the gentle giant</title>
-      <link>http://localhost:60317/journal/rocco-the-gentle-giant/</link>
+      <link>http://localhost:1313/journal/rocco-the-gentle-giant/</link>
       <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60317/journal/rocco-the-gentle-giant/</guid>
+      <guid>http://localhost:1313/journal/rocco-the-gentle-giant/</guid>
       <description>&lt;p&gt;Despite his size, Rocco has a soft heart. He learned to walk calmly on a leash, adores children, and patiently waits for cuddles. This abstract shares how structure, enrichment games, and a stable foster home revealed the sweetest side of a once-overlooked pup.&lt;/p&gt;</description>
     </item>
   </channel>

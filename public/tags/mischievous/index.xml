@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mischievous on Pupperta - Dog Rescue Stories</title>
+    <link>http://localhost:1313/tags/mischievous/</link>
+    <description>Recent content in Mischievous on Pupperta - Dog Rescue Stories</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mischievous/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Charlie</title>
+      <link>http://localhost:1313/dogs/charlie/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/charlie/</guid>
+      <description>&lt;p&gt;Charlie is a fun-loving puppy who&amp;rsquo;s always up for an adventure. He needs a family who can provide lots of supervision and training as he grows up.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cuddly on Pupperta - Dog Rescue Stories</title>
+    <link>http://localhost:1313/tags/cuddly/</link>
+    <description>Recent content in Cuddly on Pupperta - Dog Rescue Stories</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cuddly/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lola</title>
+      <link>http://localhost:1313/dogs/lola/</link>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/lola/</guid>
+      <description>&lt;p&gt;Lola is a very affectionate dog who loves to be close to her humans. She&amp;rsquo;s perfect for someone who wants a lap dog and constant companion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Teddy</title>
+      <link>http://localhost:1313/dogs/teddy/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/teddy/</guid>
+      <description>&lt;p&gt;Teddy is like a living teddy bear - soft, fluffy, and absolutely adorable. He&amp;rsquo;s great with children and loves to be cuddled and petted.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

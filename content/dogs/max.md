@@ -6,7 +6,7 @@ temporal_name: "Max"
 description: "An energetic and playful pup who loves outdoor adventures. Max is perfect for an active family who enjoys hiking and outdoor activities."
 picture: "https://picsum.photos/seed/max/400/400"
 age: "2 years"
-weight: "25 kg"
+dog_weight: "25 kg"
 size: "Large"
 reactive: true
 status: "available"

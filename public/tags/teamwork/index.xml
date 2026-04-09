@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teamwork on Pupperta - Dog Rescue Stories</title>
+    <link>http://localhost:1313/tags/teamwork/</link>
+    <description>Recent content in Teamwork on Pupperta - Dog Rescue Stories</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 25 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/teamwork/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Streets to Safety — A Community Effort</title>
+      <link>http://localhost:1313/journal/from-streets-to-safety/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journal/from-streets-to-safety/</guid>
+      <description>&lt;p&gt;When we received the call about five abandoned puppies in an empty lot, we knew this would be a community effort. The puppies were malnourished, scared, and in need of immediate medical attention. But what happened next showed us the true power of community.&lt;/p&gt;&#xA;&lt;p&gt;Local businesses donated food and supplies, neighbors opened their homes as temporary fosters, and our veterinary partners provided discounted care. Within weeks, each puppy was healthy, socialized, and ready for adoption. Today, all five are living happily with their forever families.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

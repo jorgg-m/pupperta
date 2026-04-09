@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Loyal on Pupperta - Dog Rescue Stories</title>
+    <link>http://localhost:1313/tags/loyal/</link>
+    <description>Recent content in Loyal on Pupperta - Dog Rescue Stories</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/loyal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zeus</title>
+      <link>http://localhost:1313/dogs/zeus/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/zeus/</guid>
+      <description>&lt;p&gt;Zeus is a magnificent dog who needs an experienced owner. He&amp;rsquo;s very loyal and protective, making him an excellent guard dog for the right family.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Duke</title>
+      <link>http://localhost:1313/dogs/duke/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/duke/</guid>
+      <description>&lt;p&gt;Duke is a well-trained and well-behaved dog who loves to be around people. He&amp;rsquo;s great with children and other pets, making him an ideal family dog.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rex</title>
+      <link>http://localhost:1313/dogs/rex/</link>
+      <pubDate>Sat, 05 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/rex/</guid>
+      <description>&lt;p&gt;Rex is a powerful and protective dog who needs an experienced owner. With proper training and leadership, he will be a loyal and devoted companion.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

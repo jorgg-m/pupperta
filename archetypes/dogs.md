@@ -6,7 +6,7 @@ temporal_name: ""
 description: ""
 picture: ""
 age: ""
-weight: ""
+dog_weight: ""
 size: ""
 reactive: false
 status: "available" # available, adopted, pending

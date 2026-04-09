@@ -1,12 +1,8 @@
 (function () {
-	// Global config
-	const MAX_IMAGES = 30; // total cap
-	const BATCH_SIZE = 5; // per load
+	// Global config for UI interactions
 	const masonry = document.getElementById('masonry');
 	const sentinel = document.getElementById('sentinel');
 	const endMessage = document.getElementById('end-message');
-	let loadedCount = 0;
-	let isLoading = false;
 
 	// Sidebar controls
 	const sidebar = document.getElementById('sidebar');
@@ -271,121 +267,12 @@
 	window.addEventListener('scroll', updateScrollTopBtn, { passive: true });
 	scrollTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
-	// Mock data for cards
-	const mockData = [
-		{ breed: 'Golden Retriever', age: '3 years', size: 'Medium', weight: '25 kg', story: 'This lovely companion was found wandering in the park and has been with us for the past month. Very friendly and loves to play with children. Gets along well with other dogs and is fully vaccinated.' },
-		{ breed: 'Labrador', age: '2 years', size: 'Large', weight: '30 kg', story: 'A playful and energetic dog that loves water activities. Great with families and has been trained in basic commands. Looking for an active family to match his energy level.' },
-		{ breed: 'Beagle', age: '1 year', size: 'Small', weight: '12 kg', story: 'Curious and friendly little dog with a great sense of smell. Perfect for families with children. Loves to explore and go on walks. House trained and ready for adoption.' },
-		{ breed: 'German Shepherd', age: '4 years', size: 'Large', weight: '35 kg', story: 'Intelligent and loyal companion. Has been trained as a family protector and is great with children. Needs regular exercise and mental stimulation.' },
-		{ breed: 'Poodle', age: '2 years', size: 'Medium', weight: '18 kg', story: 'Elegant and smart dog with hypoallergenic fur. Great for families with allergies. Loves to learn new tricks and enjoys grooming sessions.' },
-		{ breed: 'Bulldog', age: '5 years', size: 'Medium', weight: '22 kg', story: 'Gentle giant with a calm temperament. Perfect for apartment living. Loves to cuddle and is great with children. Low maintenance and very loyal.' },
-		{ breed: 'Border Collie', age: '2 years', size: 'Medium', weight: '20 kg', story: 'Highly intelligent and energetic working dog. Needs lots of exercise and mental stimulation. Great for active families who love outdoor activities.' },
-		{ breed: 'Chihuahua', age: '1 year', size: 'Small', weight: '3 kg', story: 'Tiny but mighty! This little dog has a big personality. Perfect for apartment living and loves to be carried around. Great companion for seniors.' },
-		{ breed: 'Husky', age: '3 years', size: 'Large', weight: '28 kg', story: 'Beautiful and energetic sled dog. Loves cold weather and running. Needs lots of exercise and a secure yard. Great for active families.' },
-		{ breed: 'Corgi', age: '2 years', size: 'Small', weight: '12 kg', story: 'Adorable short-legged herding dog. Very intelligent and loves to play. Great with children and other pets. Perfect family companion.' }
-	];
+	// No mock data needed - Hugo generates all content
 
-	// Helper: create a single masonry card
-	function createCard(index) {
-		// Randomize aspect by height for masonry effect
-		const width = 600;
-		const height = 450 + Math.floor(Math.random() * 300); // 450-750
-		const seed = `${Date.now()}-${index}-${Math.random().toString(36).slice(2, 7)}`;
-		const src = `https://picsum.photos/seed/${seed}/${width}/${height}`;
+	// No need for createCard function - Hugo generates all content
 
-		// Get mock data for this card
-		const dataIndex = index % mockData.length;
-		const cardData = mockData[dataIndex];
-
-		const wrapper = document.createElement('article');
-		wrapper.className = 'mb-4 break-inside-avoid rounded-lg overflow-hidden bg-white shadow-sm ring-1 ring-black/5 transition-all duration-300 ease-in-out cursor-pointer';
-
-		const img = document.createElement('img');
-		img.src = src; // native lazy
-		img.loading = 'lazy';
-		img.alt = `${cardData.breed} - ${cardData.age}`;
-		img.width = width;
-		img.height = height;
-		img.className = 'w-full h-auto object-cover opacity-0 translate-y-2 transition-all duration-300 ease-in-out will-change-transform';
-
-		// Fade-in on load
-		img.addEventListener('load', () => {
-			img.classList.remove('opacity-0', 'translate-y-2');
-			img.classList.add('opacity-100', 'translate-y-0');
-		});
-
-		const meta = document.createElement('div');
-		meta.className = 'flex items-center justify-between px-3 py-2';
-
-		const caption = document.createElement('p');
-		caption.className = 'text-sm font-medium truncate';
-		caption.textContent = cardData.breed;
-
-		const actions = document.createElement('div');
-		actions.className = 'flex items-center gap-2';
-		actions.innerHTML = '<button class="inline-flex items-center justify-center h-8 w-8 rounded-md hover:bg-gray-100 transition-all duration-300 ease-in-out" aria-label="Like">❤</button>';
-
-		// Hover zoom on image
-		wrapper.addEventListener('mouseenter', () => img.classList.add('scale-[1.02]'));
-		wrapper.addEventListener('mouseleave', () => img.classList.remove('scale-[1.02]'));
-
-		// Click to open modal
-		wrapper.addEventListener('click', () => {
-			if (typeof window.__openImageModal === 'function') {
-				window.__openImageModal({
-				src: src,
-				alt: `${cardData.breed} - ${cardData.age}`,
-				...cardData
-				});
-			}
-		});
-
-		wrapper.appendChild(img);
-		meta.appendChild(caption);
-		meta.appendChild(actions);
-		wrapper.appendChild(meta);
-		return wrapper;
-	}
-
-	// Load next batch into masonry (only if masonry exists on page)
-	if (masonry && sentinel && endMessage) {
-		async function loadNextBatch() {
-			if (isLoading) return;
-			if (loadedCount >= MAX_IMAGES) return;
-			isLoading = true;
-
-			const fragment = document.createDocumentFragment();
-			let appended = 0;
-			for (let i = 0; i < BATCH_SIZE && loadedCount + i < MAX_IMAGES; i++) {
-				const card = createCard(loadedCount + i + 1);
-				fragment.appendChild(card);
-				appended++;
-			}
-			masonry.appendChild(fragment);
-
-			loadedCount = loadedCount + appended;
-			isLoading = false;
-
-			if (loadedCount >= MAX_IMAGES) {
-				endMessage.classList.remove('hidden');
-				// Stop observing once finished
-				if (io) io.disconnect();
-			}
-		}
-
-		// Infinite scroll via IntersectionObserver on sentinel
-		const io = new IntersectionObserver((entries) => {
-			entries.forEach((entry) => {
-				if (entry.isIntersecting && !isLoading && loadedCount < MAX_IMAGES) {
-					loadNextBatch();
-				}
-			});
-		}, { rootMargin: '200px' });
-		io.observe(sentinel);
-
-		// Initial content for feed page
-		loadNextBatch();
-	}
+	// Hugo generates all content, so no need for mock data injection
+	// The masonry grid is already populated with Hugo-generated dog cards
 
 	updateScrollTopBtn();
 	

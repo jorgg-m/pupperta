@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trainable on Pupperta - Dog Rescue Stories</title>
+    <link>http://localhost:1313/tags/trainable/</link>
+    <description>Recent content in Trainable on Pupperta - Dog Rescue Stories</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/trainable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coco</title>
+      <link>http://localhost:1313/dogs/coco/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/coco/</guid>
+      <description>&lt;p&gt;Coco is an adorable puppy who&amp;rsquo;s still learning the basics. She&amp;rsquo;s very smart and eager to please, making her a great candidate for training.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>http://localhost:1313/dogs/ruby/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/ruby/</guid>
+      <description>&lt;p&gt;Ruby is an incredibly intelligent dog who loves to learn and work. She&amp;rsquo;s perfect for someone who enjoys training and wants a highly trainable companion.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

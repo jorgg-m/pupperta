@@ -12,31 +12,31 @@ theme = 'pupperta-theme'
     identifier = "home"
     name = "Casa"
     url = "/"
-    weight = 10
+    menu_weight = 10
     
   [[menu.main]]
     identifier = "presentation"
     name = "Presentación"
     url = "/presentacion/"
-    weight = 20
+    menu_weight = 20
     
   [[menu.main]]
     identifier = "journal"
     name = "Blog"
     url = "/journal/"
-    weight = 30
+    menu_weight = 30
     
   [[menu.main]]
     identifier = "dogs"
     name = "Perros Rescatados"
     url = "/dogs/"
-    weight = 40
+    menu_weight = 40
     
   [[menu.main]]
     identifier = "collabs"
     name = "Collabs"
     url = "/collabs/"
-    weight = 50
+    menu_weight = 50
 
 [markup]
   [markup.goldmark]

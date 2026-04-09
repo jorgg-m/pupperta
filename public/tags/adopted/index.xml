@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adopted on Pupperta - Dog Rescue Stories</title>
+    <link>http://localhost:1313/tags/adopted/</link>
+    <description>Recent content in Adopted on Pupperta - Dog Rescue Stories</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/adopted/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Luna (Adopted)</title>
+      <link>http://localhost:1313/dogs/luna-adopted/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/luna-adopted/</guid>
+      <description>&lt;p&gt;Luna has been successfully adopted! She found her perfect family and is now living her best life in a loving home.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graceful on Pupperta - Dog Rescue Stories</title>
+    <link>http://localhost:1313/tags/graceful/</link>
+    <description>Recent content in Graceful on Pupperta - Dog Rescue Stories</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/graceful/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Princess</title>
+      <link>http://localhost:1313/dogs/princess/</link>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/dogs/princess/</guid>
+      <description>&lt;p&gt;Princess is a very elegant dog who loves to be pampered. She enjoys quiet environments and would be perfect for someone who appreciates a refined companion.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
